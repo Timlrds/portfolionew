@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Timao Gourdais - Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+<style>
+body{
+margin:0;
+background:#0a0f1f;
+color:white;
+font-family:Poppins;
+}
+
+nav{
+position:fixed;
+width:100%;
+padding:15px;
+background:rgba(0,0,0,0.6);
+backdrop-filter:blur(10px);
+border-bottom:1px solid #00ffe0;
+}
+
+nav a{
+color:#00ffe0;
+margin:20px;
+text-decoration:none;
+font-family:Orbitron;
+}
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+flex-direction:column;
+background:radial-gradient(circle at center,#111a3a,#050814);
+}
+
+.hero img{
+width:180px;
+border-radius:20px;
+border:3px solid #00ffe0;
+box-shadow:0 0 25px #00ffe0;
+}
+
+h1{
+font-family:Orbitron;
+font-size:50px;
+margin:20px;
+}
+
+.card{
+width:80%;
+margin:auto;
+padding:40px;
+margin-top:80px;
+background:rgba(255,255,255,0.05);
+border-radius:20px;
+border:1px solid #00ffe0;
+box-shadow:0 0 20px rgba(0,255,224,0.3);
+}
+
+.section{
+min-height:100vh;
+padding-top:100px;
+}
+
+.button{
+margin-top:20px;
+padding:12px 25px;
+border:1px solid #00ffe0;
+border-radius:10px;
+text-decoration:none;
+color:#00ffe0;
+transition:0.3s;
+}
+
+.button:hover{
+background:#00ffe0;
+color:black;
+box-shadow:0 0 20px #00ffe0;
+}
+
+.cv img{
+width:70%;
+border-radius:15px;
+border:2px solid #00ffe0;
+box-shadow:0 0 30px #00ffe0;
+}
+
+.footer{
+text-align:center;
+padding:30px;
+border-top:1px solid #00ffe0;
+margin-top:80px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#profil">Profil</a>
+<a href="#passions">Passions</a>
+<a href="#cv">CV</a>
+<a href="https://www.linkedin.com/in/timao-gourdais-71462b270/" target="_blank">LinkedIn</a>
+</nav>
+
+<section class="hero">
+
+<img src="photo.png" alt="photo">
+
+<h1>Timao Gourdais</h1>
+
+<p>Étudiant BTS SIO | Futur Administrateur Systèmes & Réseaux</p>
+
+<a class="button" href="https://www.linkedin.com/in/timao-gourdais-71462b270/" target="_blank">Voir mon LinkedIn</a>
+
+</section>
+
+<section id="profil" class="section">
+
+<div class="card">
+
+<h2>Profil</h2>
+
+<p>
+Je suis étudiant en BTS SIO option SISR et je travaille actuellement chez What's Cooking en support informatique.
+Je développe mes compétences en administration systèmes, virtualisation, réseau Cisco, supervision et cybersécurité.
+
+Passionné par les nouvelles technologies, je réalise aussi des projets personnels comme des labs virtualisés, des dashboards de supervision et des projets DevOps.
+</p>
+
+<p>
+Mon objectif est de devenir Administrateur Systèmes et Réseaux puis évoluer vers des rôles DevOps ou ingénieur infrastructure.
+</p>
+
+</div>
+
+</section>
+
+<section id="passions" class="section">
+
+<div class="card">
+
+<h2>Passions</h2>
+
+<p>
+🎵 Musique : Production FL Studio, écoute hip-hop / électro, sound design.
+</p>
+
+<p>
+🎸 Guitare : apprentissage des solos rock et metal, improvisation pentatonique.
+</p>
+
+<p>
+🎮 Jeux vidéo : stratégie, MMO, jeux compétitifs et création de projets gaming.
+</p>
+
+<p>
+💻 Informatique : homelab, virtualisation Hyper-V, Docker, monitoring Grafana.
+</p>
+
+<p>
+🚀 Création : développement de projets, idées business tech et game design.
+</p>
+
+</div>
+
+</section>
+
+<section id="cv" class="section cv">
+
+<div class="card">
+
+<h2>Mon CV</h2>
+
+<p>Voici mon CV professionnel :</p>
+
+<img src="cv.png" alt="cv">
+
+</div>
+
+</section>
+
+<div class="footer">
+
+<p>© 2026 - Portfolio Timao Gourdais</p>
+
+</div>
+
+</body>
+
+</html>
